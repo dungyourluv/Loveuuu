@@ -1,0 +1,75 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    margin: 0;
+    margin-top: 20px;
+}
+
+.forget__container{
+    text-align: center;
+    margin: 10px 10px;
+}
+.forget__container-logo{
+    position: relative;
+}
+
+.forget__container-logo::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    bottom: -4px;
+    left: 0;
+    background-color: #eee;
+}
+
+.container__morm-logo-img{
+    height: 39px;
+    width: 112px;
+
+}
+.forget__container-form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.forget__container-header{
+    text-align: left;
+}
+.forget__container-input{
+    height: 40px;
+    border: 1px solid #eee;
+    background-color:#F5F6F7 ;
+    margin-top: 10px;
+}
+.forget__container-button{
+    display: flex;
+}
+.forget__container-button-back{
+    flex: 1;
+    color: #1877F2;
+    background-color: #fff;
+}
+.forget__container-button-search{
+    flex: 1;
+    color: #fff;
+    background-color: #1877F2;
+}
+
+.forget--add-button {
+    height: 34px;
+    border: 1px solid #1877F2;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 14px 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.forget__container-gmail{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0a52b1;
+}
