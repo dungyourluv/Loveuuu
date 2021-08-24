@@ -5,75 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
     <div id="main">
-        <div class="facebook__container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header__alert">Bạn cần đăng nhập để tiếp tục</div>
+        </div>
+    
+
+    <!-- content -->
+
+    <div class="content">
+        <div class="content__container">
+            <div class="container__logo">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" class="container__logo-img">
+            </div>
             <div class="container__form">
-                <div class="container__form-logo">
-                    <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" class="container__form-logo-img">
-                </div>
-                <div class="container__form-input">
-                    <input type="text" placeholder="Số di động hoặc email"   class="container__form-input-main">
-                    <input type="password" placeholder="Mật khẩu"  class="container__form-input-main">
-                    <button  onclick="window.location.href='https://m.facebook.com/'" class="container__form-input-button">
-                        Đăng nhập
+                <form action="" method="get" class="container__form-get">
+                    <input type="text" class="form__contact form--input" placeholder="Số di động hoặc email">
+                    <input type="text" class="form__pass form--input" placeholder="Mật khẩu">
+                    <button class="form__btn main--btn">Đăng nhập</button>
+                </form>
+                <div class="form__forget">
+                    <a href="./assets/html/forget.html" class="form__forget-link">Quên mật khẩu?</a>
+                    <p class="form__forget-text">hoặc</p>
+                    <button onclick="window.location.href='./assets/html/signup.html'" class="form__forget-btn main--btn">
+                        Tạo tài khoản mới
                     </button>
-                </div>
-                <div class="container__form-forget">
-                    <a href="./assets/html/forgetpass.html" class="container__form-forget-link">
-                        Quên mật khẩu?
-                    </a>
-                    
-                    <div class="container__form-forget-add">
-                        <p class="container__form-forget-text">
-                            hoặc
-                        </p>   
-                        <div class="container__sticker"></div>
-                    </div>
-                    <button class="container__form-forget-regin" onclick="window.location.href='./assets/html/regin.html' ">Tạo tài khoản mới</button>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <div class="facebook__footer">
-            <ul class="footer__table">
-                <li class="footer__table-content"><a href="#">
-                    Tiếng việt
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    中文(台灣)
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    Español
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    Français (France)
-                </a></li>
+        <div class="footer">
+            <ul class="footer__talble">
+                <li class="footer__table-list"><a href="" class="footer__table-link">Tiếng Việt</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">中文(台灣)</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">Español</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">Français (France)</a></li>
             </ul>
             <ul class="footer__table">
-                <li class="footer__table-content"><a href="#">
-                    English (UK)
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    한국어
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    Português (Brasil)
-                </a></li>
-                <li class="footer__table-content"><a href="#">
-                    English(US)
-                </a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">English (UK)</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">한국어</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">Português (Brasil)</a></li>
+                <li class="footer__table-list"><a href="" class="footer__table-link">English (US)</a></li>
             </ul>
         </div>
-        <div class="footer__add">
-            <p class="footer__mac">
+        <div class="footer__end">
+            <div class="footer__end-text">
                 Facebook, Inc.
-            </p>
-
+            </div>
         </div>
     </div>
+</div>
 </body>
 </html>
