@@ -1,64 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-<body>
-    <div id="main">
-        <!-- Header -->
-        <div class="header">
-            <div class="header__alert">Bạn cần đăng nhập để tiếp tục</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Accounts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/grid.css" />
+    <link rel="stylesheet" href="./assets/app.css" />
+  </head>
+  <body>
+    <div class="main grid wide">
+      <span
+        style="
+          color: red;
+          margin-bottom: 20px;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+        "
+        >Code đang ngu nên là viết đầy đủ họ tên, viết hoa chữ cái đầu nhé :v,
+        VD: Lê Thế Dũng
+      </span>
+      <div class="search-box row">
+        <div class="search-box-content">
+          <input type="text" placeholder="Nhập tên" class="input" />
+          <button class="btn">search</button>
         </div>
-    
-
-    <!-- content -->
-
-    <div class="content">
-        <div class="content__container">
-            <div class="container__logo">
-                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" class="container__logo-img">
-            </div>
-            <div class="container__form">
-                <form action="" method="get" class="container__form-get">
-                    <input type="text" class="form__contact form--input" placeholder="Số di động hoặc email">
-                    <input type="text" class="form__pass form--input" placeholder="Mật khẩu">
-                    <button class="form__btn main--btn">Đăng nhập</button>
-                </form>
-                <div class="form__forget">
-                    <a href="./assets/html/forget.html" class="form__forget-link">Quên mật khẩu?</a>
-                    <p class="form__forget-text">hoặc</p>
-                    <button onclick="window.location.href='./assets/html/signup.html'" class="form__forget-btn main--btn">
-                        Tạo tài khoản mới
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <ul class="footer__talble">
-                <li class="footer__table-list"><a href="" class="footer__table-link">Tiếng Việt</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">中文(台灣)</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">Español</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">Français (France)</a></li>
-            </ul>
-            <ul class="footer__table">
-                <li class="footer__table-list"><a href="" class="footer__table-link">English (UK)</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">한국어</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">Português (Brasil)</a></li>
-                <li class="footer__table-list"><a href="" class="footer__table-link">English (US)</a></li>
-            </ul>
-        </div>
-        <div class="footer__end">
-            <div class="footer__end-text">
-                Facebook, Inc.
-            </div>
-        </div>
+      </div>
+      <div class="box-content">
+        <ul class="box-list"></ul>
+      </div>
     </div>
-</div>
-</body>
+    <script src="./assets/app.js"></script>
+  </body>
 </html>
