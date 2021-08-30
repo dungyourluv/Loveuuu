@@ -79,3 +79,11 @@ ul {
 .color {
   color: #000;
 }
+
+@media (max-width: 740px) {
+  .main {
+    margin: 0;
+    padding: 0 10px;
+    min-width: 100%;
+  }
+}
