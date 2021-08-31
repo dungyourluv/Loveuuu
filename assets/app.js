@@ -191,8 +191,8 @@ var DTT = new User(
   "Mk#toan0736 ",
   30
 );
-var dung = new User(
-  "Thằng này",
+var NDT= new User(
+  "Nguyễn Duy Tới",
   "TOND150204@thpt-canloc-hatinh.edu.vn ",
   "Mk#010737",
   31
