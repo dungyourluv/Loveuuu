@@ -193,7 +193,7 @@ var DTT = new User(
 );
 var NDT= new User(
   "Nguyễn Duy Tới",
-  "TOND150204@thpt-canloc-hatinh.edu.vn ",
+  "ToiND150204@thpt-canloc-hatinh.edu.vn ",
   "Mk#010737",
   31
 );
