@@ -254,7 +254,7 @@ var array = [
   TTTT,
   PTT,
   DTT,
-  dung,
+  NDT,
   HTQT,
   NTT,
   DTT,
