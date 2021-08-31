@@ -194,7 +194,7 @@ var DTT = new User(
 var NDT= new User(
   "Nguyễn Duy Tới",
   "ToiND150204@thpt-canloc-hatinh.edu.vn ",
-  "Mk#010737",
+  "Mk#toi0737",
   31
 );
 var HTQT = new User(
