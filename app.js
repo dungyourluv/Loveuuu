@@ -44,7 +44,7 @@ function yesBtnClick() {
     mainLove.classList.remove("active");
   });
   typeText(".input-text", "Tại vì tớ thích cậu nhiều lắmm");
-  typeText2(".pop-name", "Bạn Lê Đẹp Gấy");
+  typeText2(".pop-name", "Dũng");
 }
 
 var textcheck = "";
